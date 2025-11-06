@@ -1,5 +1,3 @@
-# Aidvi
-
 # AIdvi - AI-Powered Virtual Assistant 🤖
 
 A sophisticated virtual assistant platform that leverages Large Language Models (LLMs) to create customizable AI chatbots. Built with modern web technologies and AI capabilities.
@@ -48,24 +46,56 @@ A sophisticated virtual assistant platform that leverages Large Language Models 
 ### Prerequisites
 - Python 3.8+
 - Node.js 16+
-- MySQL/PostgreSQL
+- MySQL
 - Redis
 
-### Installation
+### Installation & Setup
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/aidvi.git
 cd aidvi
+Backend Setup
 
-2. **Backend Setup**
+bash
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+# Install Python dependencies
 pip install -r requirements.txt
 
 # Environment configuration
-cp .env.example .env
-# Add your API keys in .env
+# Create .env file with the following variables:
+# OPEN_AI_API_KEY=your_openai_api_key_here
+# STRIPE_SECRET_KEY=your_stripe_secret_key_here
+# SECRET_KEY=your_flask_secret_key_here
+Database Setup
+
+bash
+# Start MySQL and create database
+mysql -u root -p
+CREATE DATABASE aidvi;
+EXIT;
+
+# The application will create tables automatically on first run
+Frontend Setup
+
+bash
+# Navigate to frontend directory (if separate)
+cd frontend
+
+# Install Node.js dependencies
+npm install
+
+# Start development server
+npm start
+Run the Application
+
+bash
+# Start backend server (in main directory)
+python app.py
+
+# The application will be available at:
+# Backend: http://localhost:5000
+# Frontend: http://localhost:3000
