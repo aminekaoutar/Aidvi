@@ -57,3 +57,15 @@ A sophisticated virtual assistant platform that leverages Large Language Models 
 ```bash
 git clone https://github.com/yourusername/aidvi.git
 cd aidvi
+
+2. **Backend Setup**
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Environment configuration
+cp .env.example .env
+# Add your API keys in .env
