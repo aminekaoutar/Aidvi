@@ -81,88 +81,103 @@ python app.py
 # In new terminal: npm start
 ```
 📁 Project Structure
+--------------------
+
 text
-aidvi/
-├── app.py                 # Main Flask application
-├── config.py             # Application configuration
-├── models.py             # Database models
-├── aidvi_functions.py    # Core AI processing functions
-├── atawich.py           # Additional API routes
-├── requirements.txt      # Python dependencies
-├── package.json         # Node.js dependencies
-└── React Components/    # Frontend components
-    ├── App.jsx
-    ├── ChatBot.jsx
-    ├── Account.jsx
-    └── Subscription.jsx
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   aidvi/  ├── app.py                 # Main Flask application  ├── config.py             # Application configuration  ├── models.py             # Database models  ├── aidvi_functions.py    # Core AI processing  ├── atawich.py           # Additional API routes  ├── requirements.txt      # Python dependencies  ├── package.json         # Node.js dependencies  └── src/                 # React components      ├── App.jsx      ├── ChatBot.jsx      ├── Account.jsx      └── Subscription.jsx   `
+
 🔧 Configuration
-Create a .env file in the root directory with:
+----------------
+
+Create a .env file with:
 
 env
-OPEN_AI_API_KEY=your_openai_api_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
-SECRET_KEY=your_flask_secret_key
-SQLALCHEMY_DATABASE_URI=mysql://root:@localhost/aidvi
-Supported File Types
-PDF Documents - Text extraction and processing
 
-DOCX Files - Word document parsing
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   OPEN_AI_API_KEY=your_openai_api_key  STRIPE_SECRET_KEY=your_stripe_secret_key  SECRET_KEY=your_flask_secret_key  SQLALCHEMY_DATABASE_URI=mysql://root:@localhost/aidvi   `
 
-CSV Data - Tabular data analysis
+### Supported File Types
 
-YouTube URLs - Transcript extraction
-
-Web URLs - Content scraping
+*   **PDF Documents** - Text extraction and processing
+    
+*   **DOCX Files** - Word document parsing
+    
+*   **CSV Data** - Tabular data analysis
+    
+*   **YouTube URLs** - Transcript extraction
+    
+*   **Web URLs** - Content scraping
+    
 
 💡 Usage
-Creating a New Bot
-Register/Login to your account
+--------
 
-Navigate to "Create New Bot"
+### Creating a New Bot
 
-Configure bot personality and settings
+1.  Register/Login to your account
+    
+2.  Navigate to "Create New Bot"
+    
+3.  Configure bot personality and settings
+    
+4.  Upload training documents
+    
+5.  Start chatting!
+    
 
-Upload training documents
+### API Endpoints
 
-Start chatting!
-
-API Endpoints
-POST /register - User registration
-
-POST /login - User authentication
-
-POST /create_bot - Create new AI assistant
-
-POST /get_answer - Get bot responses
-
-POST /create_subscription - Manage subscriptions
+*   POST /register - User registration
+    
+*   POST /login - User authentication
+    
+*   POST /create\_bot - Create new AI assistant
+    
+*   POST /get\_answer - Get bot responses
+    
+*   POST /create\_subscription - Manage subscriptions
+    
 
 🎯 Use Cases
-🏢 Business Applications
-Customer support automation
+------------
 
-Employee training assistants
+### 🏢 Business Applications
 
-Document analysis and Q&A
+*   Customer support automation
+    
+*   Employee training assistants
+    
+*   Document analysis and Q&A
+    
+*   Knowledge base management
+    
 
-Knowledge base management
+### 👨‍💻 Personal Use
 
-👨‍💻 Personal Use
-Study assistants
-
-Research companions
-
-Content creation helpers
-
-Personal knowledge management
+*   Study assistants
+    
+*   Research companions
+    
+*   Content creation helpers
+    
+*   Personal knowledge management
+    
 
 🤝 Contributing
-Fork the repository
+---------------
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+1.  Fork the repository
+    
+2.  Create your feature branch (git checkout -b feature/AmazingFeature)
+    
+3.  Commit your changes (git commit -m 'Add some AmazingFeature')
+    
+4.  Push to the branch (git push origin feature/AmazingFeature)
+    
+5.  Open a Pull Request
+    
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+📄 License
+----------
 
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
+This project is licensed under the MIT License.
