@@ -84,18 +84,30 @@ python app.py
 --------------------
 
 aidvi/
-├── app.py                 # Main Flask application
-├── config.py             # Application configuration
-├── models.py             # Database models
-├── aidvi_functions.py    # Core AI processing
-├── atawich.py           # Additional API routes
-├── requirements.txt      # Python dependencies
-├── package.json         # Node.js dependencies
-└── src/                 # React components
-    ├── App.jsx
-    ├── ChatBot.jsx
-    ├── Account.jsx
-    └── Subscription.jsx
+
+├── app.py # Main Flask application
+
+├── config.py # Application configuration
+
+├── models.py # Database models
+
+├── aidvi\_functions.py # Core AI processing
+
+├── atawich.py # Additional API routes
+
+├── requirements.txt # Python dependencies
+
+├── package.json # Node.js dependencies
+
+└── src/ # React components
+
+├── App.jsx
+
+├── ChatBot.jsx
+
+├── Account.jsx
+
+└── Subscription.jsx
 
 🔧 Configuration
 ----------------
