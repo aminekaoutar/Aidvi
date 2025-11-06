@@ -74,6 +74,7 @@ STRIPE_SECRET_KEY=your_stripe_secret_key_here
 SECRET_KEY=your_flask_secret_key_here
 SQLALCHEMY_DATABASE_URI=mysql://root:@localhost/aidvi
 EOL
+```
 
 # Run the application
 python app.py
