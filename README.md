@@ -83,18 +83,30 @@ python app.py
 📁 Project Structure
 --------------------
 
-text
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   aidvi/  ├── app.py                 # Main Flask application  ├── config.py             # Application configuration  ├── models.py             # Database models  ├── aidvi_functions.py    # Core AI processing  ├── atawich.py           # Additional API routes  ├── requirements.txt      # Python dependencies  ├── package.json         # Node.js dependencies  └── src/                 # React components      ├── App.jsx      ├── ChatBot.jsx      ├── Account.jsx      └── Subscription.jsx   `
+aidvi/
+├── app.py                 # Main Flask application
+├── config.py             # Application configuration
+├── models.py             # Database models
+├── aidvi_functions.py    # Core AI processing
+├── atawich.py           # Additional API routes
+├── requirements.txt      # Python dependencies
+├── package.json         # Node.js dependencies
+└── src/                 # React components
+    ├── App.jsx
+    ├── ChatBot.jsx
+    ├── Account.jsx
+    └── Subscription.jsx
 
 🔧 Configuration
 ----------------
 
-Create a .env file with:
-
-env
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   OPEN_AI_API_KEY=your_openai_api_key  STRIPE_SECRET_KEY=your_stripe_secret_key  SECRET_KEY=your_flask_secret_key  SQLALCHEMY_DATABASE_URI=mysql://root:@localhost/aidvi   `
+Create a .env file with:
+```bash
+OPEN_AI_API_KEY=your_openai_api_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+SECRET_KEY=your_flask_secret_key
+SQLALCHEMY_DATABASE_URI=mysql://root:@localhost/aidvi
+```
 
 ### Supported File Types
 
@@ -162,22 +174,5 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
     
 *   Personal knowledge management
     
-
-🤝 Contributing
----------------
-
-1.  Fork the repository
-    
-2.  Create your feature branch (git checkout -b feature/AmazingFeature)
-    
-3.  Commit your changes (git commit -m 'Add some AmazingFeature')
-    
-4.  Push to the branch (git push origin feature/AmazingFeature)
-    
-5.  Open a Pull Request
     
 
-📄 License
-----------
-
-This project is licensed under the MIT License.
